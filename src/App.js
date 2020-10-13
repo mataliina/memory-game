@@ -115,7 +115,7 @@ const App = () => {
 		<div>
 			<ThemeProvider theme={theme}>
 				<Header />
-				<Container maxWidth={'md'}>
+				<Container maxWidth={'lg'}>
 					<Grid container spacing={2} alignItems='center'>
 						<Grid item xs={12} sm={9}>
 							<FormControl component='fieldset'>
