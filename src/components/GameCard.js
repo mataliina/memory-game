@@ -40,9 +40,9 @@ const GameCard = (props) => {
 			if (Object.values(correctPairs).indexOf(name) === -1 && isFlipped) {
 				setTimeout(() => {
 					setIsFlipped(false)
-					setUnFlip(false)
 				}, 1000)
 			}
+			setUnFlip(false)
 		}
 	}, [unFlip])
 
